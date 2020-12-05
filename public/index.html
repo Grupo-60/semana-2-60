@@ -11,29 +11,29 @@
 
 <body>
     <!--inicio header-->
-    <header>
-        <!--menu-->
-        <section class="contenedor-encabezado">
-            <nav class="navbar bg-dark navbar-dark navbar-expand-md">	
-                <div class="contenedor-navegacion">	
-                    <a class="navbar-brand" href="#">
-                        <img src="img/Phyzer.jpg" alt="">
-                        <h1>Phyzer Industries</h1>MyLogo</a>
-                    <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#myNav">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="myNav">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#news">Noticias</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#team">Miembros</a></li>
-                        </ul>
-                    </div>        
-                </div>                
-            </nav>
-        </section>
-        <!--fin menu-->
-        <!--inicio Carousel--> 
+	<header>
+        <section class="contenedor-encabezado bg-dark">
+            <div class="contenedor-titulo bg-dark">
+                <img src="img/Phyzer.jpg" alt="">
+                <h1>Phyzer Industries</h1>
+            </div>
+			<nav class="contenedor-navegacion navbar bg-dark navbar-dark navbar-expand-md">	
+				<div class="container">	
+
+				<button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#myNav">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="myNav">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">News</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+						</ul>
+					</div>
+				</div>			
+			</nav>
+		</section>
+	        <!--inicio Carousel--> 
         <section>   
             <div class="bd-example">
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -46,22 +46,22 @@
                         <div class="carousel-item active alto">
                             <img src="img/slider-image-1.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                <h4>First slide label</h4>
+                                <p class="texto-carrousel">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                             </div>
                         </div>
                         <div class="carousel-item alto">
                             <img src="img/slider-image-2.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <h4>Second slide label</h4>
+                                <p class="texto-carrousel">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                         </div>
                         <div class="carousel-item alto">
                             <img src="img/slider-image-3.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                <h4>Third slide label</h4>
+                                <p class="texto-carrousel">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                             </div>
                         </div>
                     </div>
@@ -82,7 +82,134 @@
     </header>
     <!--fin header-->
 <!---->
-    
+    <!--inicio main-->
+    <main>
+        <!--noticias-->
+        <section id="news" class="contenedor-noticias">
+            <div class="item-noticias">
+                <div class="div1">
+                    <img src="img/noticia1.jpg" alt="">
+                </div>
+                <div>
+                    <h4>Pfizer gana tiempo: comienza la distribución de su vacuna</h4>
+                    <hr>
+                    <p class="noti-text">La vacuna de Pfizer, la primera de todas en anunciar su eficacia respecto al coronavirus, ya ha comenzado su distribución mundial. Así lo asegura The Wall Street Journal, una de las grandes cabeceras estadounidenses. Según esta información,
+                        la la aerolínea United Airlines comenzó el viernes con los vuelos chárter para acelerar la distribución de los viales en caso de que obtenga la aprobación de la Administración de Medicamentos y Alimentos (FDA).</p>
+                    <a href="https://as.com/diarioas/2020/11/28/actualidad/1606560126_076829.htmlr" target="_blank">para conocer más..</a>
+                </div>
+            </div>
+            <div class="item-noticias">
+                <div class="div1">
+                    <img src="img/noticia2.jpg" alt="">
+                </div>
+                <div>
+                    <h4>Juez ordenó al Gobierno exigir prueba negativa de covid-19 a viajeros internacionales</h4>
+                    <hr>
+                    <p class="noti-text">Hace 20 días el propio ministro de salud, Fernando Ruiz, anunció que no se exigiría más la prueba PCR con resultado negativo para ingresar a Colombia, pero aclaró que quienes tuvieran algún tipo de síntoma respiratorio asociado a la
+                        covid-19 no podrían pasar o hacer tránsito en el país. Sin embargo, a pesar de la orden del Gobierno, varios ciudadanos se molestaron por lo que consideraron una decisión que pone en riesgo la salud pública... </p>
+                    <a href="https://www.semana.com/nacion/articulo/juez-ordeno-al-gobierno-exigir-prueba-negativa-de-covid-19-a-viajeros-internacionales/202022/" target="_blank">para conocer más..</a>
+                </div>
+            </div>
+            <div class="item-noticias">
+                <div class="div1">
+                    <img src="img/noticia3.jpg" alt="">
+                </div>
+                <div>
+                    <h4>La vacuna contra el COVID-19, cada vez más cerca de hacerse realidad</h4>
+                    <hr>
+                    <p class="noti-text">Con los claros avances en vacunas como la de la farmacéutica Pfizer y con más de un millón de muertos a nivel mundial por el COVID-19, expertos en derechos humanos han recordado que el acaparamiento de estas herramientas por países
+                        específicos y el nacionalismo no tienen lugar en la lucha contra la pandemia. Las empresas farmacéuticas también tienen la responsabilidad de no anteponer las ganancias a los derechos de las personas a la vida y la salud, advirtieron.</p>
+                    <a href="https://news.un.org/es/story/2020/11/1483782" target="_blank">para conocer más..</a>
+                </div>
+            </div>
+            <div class="item-noticias">
+                <div class="div1">
+                    <img src="img/noticia4.jpg" alt="">
+                </div>
+                <div>
+                    <h4>Pfizer, una empresa de 171 años valorada en US$214.000 millones</h4>
+                    <hr>
+                    <p class="noti-text">Mientras la pandemia de covid-19 se propagaba por el mundo, el grupo se asoció a mediados de marzo con la empresa alemana BioNTech para desarrollar una vacuna basada en nueva tecnología genética. Rápidamente, las primeras pruebas comenzaron
+                        en abril. Una vez que se seleccionó el producto, una vacuna administrada en dos dosis con tres semanas de diferencia, comenzó un gran ensayo clínico en julio, con un total de más de 40.000 participantes.…</p>
+                    <a href="https://www.portafolio.co/negocios/empresas/pfizer-una-empresa-de-171-anos-valorada-en-us-214-000-millones-546653" target="_blank">para conocer más..</a>
+                </div>
+            </div>
+        </section>
+        <!--fin noticias-->
+        <!--miembros-->
+        <section id="team" class="contenedor-equipo">
+            <div class="item-equipo">
+                <div class="div1">
+                    <img class="imgRedonda" src="img/juan_3x4.jpg" alt="">
+                </div>
+                <div>
+                    <h2>Juan David Alvarez Plata</h2>
+                    <br>
+                    <p>Ingeniero mecánico con experiencia en proyectos de automatización y atención al cliente. Nació en la ciudad de Bogotá el 11 de Enero de 1996, edad 24 años. Hobbies videojuegos, jugar ultimate y tocar guitarra, apasionado por la aviación.
+                    </p>
+                </div>
+            </div>
+            <div class="item-equipo">
+                <div class="div1">
+                    <img class="imgRedonda" src="img/santiago_3x4.jpg" alt="">
+                </div>
+                <div>
+                    <h2>Santiago Sanchez Salazar</h2>
+                    <br>
+                    <p>Estudiante de Ingenieria Mecanica de la Universidad Nacional de Colombia sede Medellin, Nació en la ciudad de Medellin el 25 de Diciembre de 1999, Edad 21 años, Hobbies Montar Biciclea, videojuegos y Cocinar, le encantar ir a cine.
+                    </p>
+                </div>
+            </div>
+            <div class="item-equipo">
+                <div class="div1">
+                    <img class="imgRedonda" src="img/daniel_3x4.jpg" alt="">
+                </div>
+                <div>
+                    <h2>Daniel Geovani Rincon Amaya</h2>
+                    <br>
+                    <p>Estudiante del Sena en el Area de programacion de computadores, Nació en Floridablanca Santander el 18 de octubre de 2001, Edad 19 Años, Hobbies Futbol y Video Juegos, le encanta ver partidos de Futbol y peliculas en el cine
+                    </p>
+                </div>
+            </div>
+            <div class="item-equipo">
+                <div class="div1">
+                    <img class="imgRedonda" src="img/geovani_3x4.jpg" alt="">
+                </div>
+                <div>
+                    <h2>Geovani Gregorio Rincon Navas</h2>
+                    <br>
+                    <p>Ingeniero de Sistemas de la Universidad Industrial de Santander, Nació en Bucaramanga Santander el 8 de septiembre de 1973, Edad 47 años, Hobbies el Baloncesto, Natacion y la programacion, le gusta la buena comida y ver peliculas en
+                        el cine
+                    </p>
+                </div>
+            </div>
+
+        </section>
+        <!--fin mienbros-->
+    </main>
+    <!--inicio main-->
+    <!--inicio footer--> 
+    <footer id="foot">
+        <section class="contenedor_pie">
+            <div class="item-pie">
+		<img alt="Logo Mision TIC 2022" src="https://www.misiontic2022.gov.co/746/channels-642_misiontic_logo.png" style="max-width:15%;">
+
+                <p>Proyecto: Sprint 1 del Ciclo 3 Semana 1, tiene como finalidad desarrollar nuestras habilidades para desarrollo Web en HTML y CSS</p>
+                <a href="https://github.com/Grupo-60/semana-1-60" target="_blank">Repositorio GitHub Semana-1-60</a>
+            </div>
+            <div class="item-pie">
+                <h2>Grupo 60</h2>
+                <ul>
+                    <li>Juan Alvarez: <a href="mailto:juanchotrox@hotmail.com">juanchotrox@hotmail.com</a></li>
+                    <li>Santiago Sanchez: <a href="mailto:sssalazar11@gmail.com">sssalazar11@gmail.com</a></li>
+                    <li>Geovani Rincon : <a href="mailto:georincon@hotmail.com">georincon@hotmail.com</a></li>
+                    <li>Daniel Rincon : <a href="mailto:danielgeorincon@gmail.com">danielgeorincon@gmail.com</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>  
+    <!--fin footer--> 
+
 
 
     <!-- Optional JavaScript -->
