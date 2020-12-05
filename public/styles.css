@@ -23,10 +23,7 @@ body {
 }
 
 .contenedor-navegacion {
-    background-color: burlywood;
-    width: 50%;
-    text-align: right;
-    vertical-align: middle font-size: 20px;
+    width: 100%;
 }
 
 nav {
