@@ -1,5 +1,6 @@
 <template>
-<div class="container-fluid" id="services">
+<section>
+    <div class="container-fluid" id="services">
         <div class="row justify-content-center mb-5">
             <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">            
                 <div class="card" style="background-image: url(https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h9-img-3.jpg);">
@@ -39,6 +40,7 @@
             </div>
         </div>
     </div>
+</section>
 </template>
 
 <script>

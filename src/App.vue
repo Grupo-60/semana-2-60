@@ -1,10 +1,11 @@
 <template>
 
   <div id="app">
-    <top-menu></top-menu>
-    <carosuel></carosuel>
-    <services></services>
 
+    <services></services>
+    <div class="container-fluid">
+      <section-api></section-api>
+    </div>
     <div class="container-fluid">
         <div class="row justify-content-center mb-5">
           <div class="col mt-4" v-for="(item, index) of team" :key="index">
@@ -20,22 +21,18 @@
 </template>
 
 <script>
-import TopMenu from './components/TopMenu.vue';
-import Carosuel from './components/Carosuel.vue';
 import Services from './components/Services.vue';
-
+import SectionApi from './components/SectionApi.vue';
 import TeamCard from './components/TeamCard.vue';
 import PageFooter from './components/PageFooter.vue';
-
 
 export default {
   name: 'App',
   components: {
     PageFooter,
     TeamCard,
+    SectionApi,
     Services,
-    Carosuel,
-    TopMenu,
   },
   data(){
     return{
@@ -81,7 +78,6 @@ export default {
   -moz-osx-smoothing: grayscale;
   /*text-align: center;*/
   color: #2c3e50;
-
 }
 </style>
 
