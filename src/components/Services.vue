@@ -5,7 +5,7 @@
             <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">            
                 <div class="card" style="background-image: url(https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h9-img-3.jpg);">
                         <div class="d-flex justify-content-center p-2">
-                            <img class="imgsevi" src="img/Covid.jpg" alt="">
+                            <img class="imgsevi" src="img/Covid.jpg" alt="Vacunación">
                         </div>
                     <div class="card-body">
                         <h5 class="card-title">Vacunación</h5>
@@ -17,7 +17,7 @@
             <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
                 <div class="card" style="background-image: url(https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h9-img-2.jpg);">
                     <div class="d-flex justify-content-center p-2">
-                            <img class="imgsevi" src="img/enfermedades.jpg" alt="">
+                            <img class="imgsevi" src="img/enfermedades.jpg" alt="Investigación">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Investigación</h5>
@@ -29,7 +29,7 @@
             <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
                     <div class="card" style="background-image: url(https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h9-img-3.jpg);">
                             <div class="d-flex justify-content-center p-2">
-                                <img class="imgsevi" src="img/medicina.jpg" alt="">
+                                <img class="imgsevi" src="img/medicina.jpg" alt="Producción">
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Producción</h5>
@@ -49,5 +49,5 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 </style>
