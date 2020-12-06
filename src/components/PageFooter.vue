@@ -1,5 +1,5 @@
 <template>
-  <footer class="page-footer bg-secondary text-white pt-4">
+  <footer class="page-footer bg-secondary text-white pt-4" id="foot">
     <!-- Footer Text -->
     <div class="container-fluid text-center text-md-left">
       <!-- Grid row -->
@@ -46,7 +46,7 @@
               <div class="btn-group mr-2" role="group" aria-label="Second button">
                 <a href="https://github.com/Grupo-60/semana-2-60" target="_blank" class="btn btn-dark btn-lg"><i class="fab fa-github"></i></a>
               </div>
-
+                <a href="https://github.com/Grupo-60/semana-2-60" target="_blank">Repositorio GitHub Semana-2-60</a>
             </div>
         </div>
         <!-- Grid column -->
