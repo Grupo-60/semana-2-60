@@ -2,7 +2,7 @@
 <section>
     <div class="card text-white bg-dark" id="team">
         <div class="d-flex justify-content-center p-2">
-            <img v-bind:src="member.imagen" alt="Fotografia Miembro del Equipo" style="border-radius: 60px;">
+            <img v-bind:src="member.image" alt="Fotografia Miembro del Equipo" style="border-radius: 60px;">
         </div>
         <div class="card-body">
             <h4 class="card-title">Team Number: {{ member.codigo }}</h4>        
@@ -24,6 +24,6 @@
     }
 </script>
 
-<style scoped>
+<style>
 
 </style>
